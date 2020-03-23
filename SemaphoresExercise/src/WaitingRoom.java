@@ -13,7 +13,7 @@ public class WaitingRoom{
 	}
 	
 	public boolean isThereAStudentWaiting() {
-		return studentsQueue.size()>0?true:false;
+		return studentsQueue.size()>0;
 	}
 	
 	public Student getOneStudent() {
